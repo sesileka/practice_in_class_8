@@ -5,11 +5,11 @@ name: Hello World
 on:
   push:
     branches:
-      - main
+      - yamlfile
   
   pull_request:
     branches:
-      - main
+      - yamlfile
   
     workflow_dispatch:
 
