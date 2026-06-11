@@ -24,4 +24,18 @@ on:
       -name: Hello
       run: echo "Hello World"
       shell: bash
+    hello1:
+      runs-on: ubuntu-latest
+      steps:
+      -uses: actions/checkout@v4
+      -name: hello1
+      run: echo "Hello World 1"
+      shell: bash
+    hello2:
+      runs-on: ubuntu-latest
+      steps:
+      -uses: actions/checkout@v4
+      -name: hello2
+      run: echo "Hello World 2"
+      shell: bash
 
